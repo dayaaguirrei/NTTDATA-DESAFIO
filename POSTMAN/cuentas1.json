@@ -1,0 +1,1 @@
+{"cuenta":{"id":1,"noCuenta":"478758","tipoCuenta":1,"saldoInicial":2000.0,"estado":true,"cliente":{"cid":1,"clave":"1234","estado":true,"persona":{"nombre":"Jose Lema","genero":"Masculino","edad":45,"identi":"099988566633","direccion":"Otavalo sn y principal","telefono":"098254785","pId":1}}},"mensaje":"La cuenta ha sido creado con éxito!"}
