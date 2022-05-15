@@ -30,13 +30,13 @@ public class ClienteImplements implements IClienteServices {
 
 	@Override
 	public Clientes findbyNombre(String nombre) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub		
 		Clientes cli = new Clientes();
 		Persona per =null;
-		
 		try {
+			
 			per = personaRepository.findByNombre(nombre);
-			cli= clienteRepository.findByPersona(per.getpId());			
+			cli= clienteRepository.findByPersona(per);			
 		}
 		catch(Exception exe) {
 			logger.error("Ha ocurrido un error: "+ exe.getMessage());
